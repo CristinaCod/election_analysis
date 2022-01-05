@@ -14,6 +14,12 @@ Calculated by initializing the variable to zero then instructing the program to 
   
   -Arapahoe: 6.7% (24,801)
   
+  County Votes was calculated by creating a for loop that pulls the county from the dictionary, retrieving their vote then calculating that to a percentage.
+  
+ "for county in county_votes:
+ votes=county_votes[county]
+ vote_percentage = float(votes) / float(total_votes) * 100
+county_results = (f"{county}: {vote_percentage:.1f}% ({votes:,})\n")"
 * **Largest County Turnout:** Denver
 * **Candidate Votes:**
 
