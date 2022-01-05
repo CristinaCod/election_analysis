@@ -17,6 +17,7 @@ The purpose of this analysis is to assist Tom, a Colorado Board of Elections emp
   -Diana DeGette
   -Winning Vote Count: 272,892
   -Winning Percentage: 73.8%
+  
 An image of the results printed out is displayed below.
 
 ![election_results.png](https://github.com/CristinaCod/election_analysis/blob/main/analysis/Election_Results.png)
