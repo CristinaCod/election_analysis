@@ -26,7 +26,7 @@ Calculated by initializing the variable to zero then instructing the program to 
   
   -Raymon Anthony Doane: 3.1% (11,606)
   
-  Candidate Results was calculated by again creating a foor loop to pull the candidate names from candidate votes. We get those values and again calculate the percentage of the votes. 
+ Candidate Results was calculated by again creating a foor loop to pull the candidate names from candidate votes. We get those values and again calculate the percentage of the votes. 
 * **Winner:**
 
   -Diana DeGette
@@ -35,7 +35,7 @@ Calculated by initializing the variable to zero then instructing the program to 
   
   -Winning Percentage: 73.8%
   
-  Winning Candidate Summary was determined using an if and statement to calculate if votes were greater than the winning vote and vote percentage was greater than winning percentage. If so, winning vote count was set equal to votes and winning percentage was set equal to the vote percentage and we printed the winning candidates name.
+ Winning Candidate Summary was determined using an if and statement to calculate if votes were greater than the winning vote and vote percentage was greater than winning percentage. If so, winning vote count was set equal to votes and winning percentage was set equal to the vote percentage and we printed the winning candidates name.
   
 An image of the results printed out is displayed below.
 
