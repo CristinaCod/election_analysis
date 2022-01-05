@@ -6,7 +6,7 @@ The purpose of this analysis is to assist Tom, a Colorado Board of Elections emp
 * **Total Votes:** 369,711
 
 Calculated by initializing the variable to zero then instructing the program to read through the election data and add every vote as it goes through the code “total_votes = total_votes + 1”
-* **County Votes:**
+* **County Vote Results:**
 
   -Jefferson: 10.5% (38,885)
   
@@ -14,14 +14,11 @@ Calculated by initializing the variable to zero then instructing the program to 
   
   -Arapahoe: 6.7% (24,801)
   
-  County Votes was calculated by creating a for loop that pulls the county from the dictionary, retrieving their vote then calculating that to a percentage.
-  
- "for county in county_votes:
- votes=county_votes[county]
- vote_percentage = float(votes) / float(total_votes) * 100
-county_results = (f"{county}: {vote_percentage:.1f}% ({votes:,})\n")"
+ County Votes was calculated by creating a for loop that pulls the county from the dictionary, retrieving their vote then calculating that to a percentage.
 * **Largest County Turnout:** Denver
-* **Candidate Votes:**
+
+ To determine largest turnout we created an if statement to determine if votes were greater than the largest county's votes then largest county's vote is equal to votes and largest county is equal to the county from our list.
+* **Candidate Vote Results:**
 
   -Chales Casper Stockham: 23.0% (85,213)
   
@@ -29,6 +26,7 @@ county_results = (f"{county}: {vote_percentage:.1f}% ({votes:,})\n")"
   
   -Raymon Anthony Doane: 3.1% (11,606)
   
+  Candidate Results was calculated by again creating a foor loop to pull the candidate names from candidate votes. We get those values and again calculate the percentage of the votes. 
 * **Winner:**
 
   -Diana DeGette
@@ -36,6 +34,8 @@ county_results = (f"{county}: {vote_percentage:.1f}% ({votes:,})\n")"
   -Winning Vote Count: 272,892
   
   -Winning Percentage: 73.8%
+  
+  Winning Candidate Summary was determined using an if and statement to calculate if votes were greater than the winning vote and vote percentage was greater than winning percentage. If so, winning vote count was set equal to votes and winning percentage was set equal to the vote percentage and we printed the winning candidates name.
   
 An image of the results printed out is displayed below.
 
