@@ -34,9 +34,13 @@ An image of the results printed out is displayed below.
 ![election_results.png](https://github.com/CristinaCod/election_analysis/blob/main/analysis/Election_Results.png)
 ## Election Summary
 To the Election Commission,
+
 The benefits and future implications of this audit know no bounds. This Colorado district is just the beginning. With a few minor changes to the data source this analysis could be applied on any other district at the same level or applied to other levels of elections. The current analysis doesn’t have to end here though. New information could be added or taken away if desired. 
-Some modifications that could be implemented include we could add a step in the code where it also examines political party affiliation. We could include this when looking at the counties, specifically the largest turnout, to determine which party has a greater prevalence and outcome. This could also be applied to the results of the winner, displaying their political party affiliation which obviously also infers the majority of voter’s affiliation. 
+
+Some modifications that could be implemented include we could add a step in the code where it also examines political party affiliation. We could include this when looking at the counties, specifically the largest turnout, to determine which party has a greater prevalence and outcome. This could also be applied to the results of the winner, displaying their political party affiliation which obviously also infers the majority of voter’s affiliation.
+
 It could also be beneficial to examine population size in relation to each county or state depending on if this code is being applied again to a state congressional precinct or the next step up, a senatorial one. Obviously, a county or state with a larger population should in theory export more votes, effecting the final results. 
+
 Additionally, if we were to one day apply this to a presidential election it would be interesting to include code that formulates popular vote versus the electoral college. 
 
 
